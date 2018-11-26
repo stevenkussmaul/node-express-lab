@@ -1,0 +1,5 @@
+{
+    "name": "Steven's Shopping Cart",
+    "description": "a shopping list app where you can add and delete things",
+    "image": "heroku/nodejs"
+}
