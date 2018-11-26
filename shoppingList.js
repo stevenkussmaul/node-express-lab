@@ -1,32 +1,32 @@
 const express = require("express");
 const shoppingList = express.Router();
 
-const items = [
-    {
-        id: 0,
-        product: "turkey",
-        price: 50,
-        quantity: 3
-    },
-    {
-        id: 1,
-        product: "stuffing",
-        price: 17,
-        quantity: 1
-    },
-    {
-        id: 2,
-        product: "dressing",
-        price: 23,
-        quantity: 2
-    },
-    {
-        id: 3,
-        product: "mashed potatotes",
-        price: 2,
-        quantity: 1
-    }
-];
+// const items = [
+//     {
+//         id: 0,
+//         product: "turkey",
+//         price: 50,
+//         quantity: 3
+//     },
+//     {
+//         id: 1,
+//         product: "stuffing",
+//         price: 17,
+//         quantity: 1
+//     },
+//     {
+//         id: 2,
+//         product: "dressing",
+//         price: 23,
+//         quantity: 2
+//     },
+//     {
+//         id: 3,
+//         product: "mashed potatotes",
+//         price: 2,
+//         quantity: 1
+//     }
+// ];
 
 shoppingList.get("/shoppingList", (req, res) => {
     res.json(items);
